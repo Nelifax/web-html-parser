@@ -90,7 +90,7 @@ print(result)
 Parses a string or URL based on given patterns and returns a structured dictionary of matches.
 
 - **Parameters:**
-  - `patterns_to_parse (str | dict)`: The pattern or schema to search within the target string. Can be a single pattern (string) or a dictionary of multiple patterns.
+  - `patterns_to_parse (str | dict)`: The pattern or schema to search within the target string. Can be a single pattern (string) or a list of multiple patterns.
   - `str_to_parse (str)`: The HTML content or URL to be parsed.
   - `alias (list of str)`: Optional aliases to label each pattern for easier readability in the output.
   - `regexp (bool, default=True)`: If `True`, treats each pattern as a regular expression; if `False`, uses plain string matching.
